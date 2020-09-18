@@ -4,13 +4,13 @@ using System.Text;
 
 namespace ATMMachine
 {
-    class Account
+    public class Account
     {
-        int accountNumber;
-        int pin;
+        private int accountNumber;
+        private int pin;
 
-        Decimal AvailableBalance;
-        Decimal TotalBalance;
+        private decimal AvailableBalance;
+        private decimal TotalBalance;
 
         public bool ValidatePin()
         {
